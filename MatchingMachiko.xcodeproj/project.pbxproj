@@ -13,6 +13,13 @@
 		3253D6EC1AABF55400D42450 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3253D6EB1AABF55400D42450 /* Images.xcassets */; };
 		3253D6EF1AABF55400D42450 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3253D6ED1AABF55400D42450 /* LaunchScreen.xib */; };
 		3253D6FB1AABF55400D42450 /* MatchingMachikoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3253D6FA1AABF55400D42450 /* MatchingMachikoTests.swift */; };
+		3253D7051AABFF7300D42450 /* tv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3253D7041AABFF7300D42450 /* tv.jpg */; };
+		3294FBCA1B11C33900939B5B /*  machiko80.png in Resources */ = {isa = PBXBuildFile; fileRef = 3294FBC51B11C33900939B5B /*  machiko80.png */; };
+		3294FBCB1B11C33900939B5B /*  machiko87.png in Resources */ = {isa = PBXBuildFile; fileRef = 3294FBC61B11C33900939B5B /*  machiko87.png */; };
+		3294FBCC1B11C33900939B5B /*  machiko120.png in Resources */ = {isa = PBXBuildFile; fileRef = 3294FBC71B11C33900939B5B /*  machiko120.png */; };
+		3294FBCD1B11C33900939B5B /*  machiko180.png in Resources */ = {isa = PBXBuildFile; fileRef = 3294FBC81B11C33900939B5B /*  machiko180.png */; };
+		3294FBCF1B11C34C00939B5B /*  machiko58.png in Resources */ = {isa = PBXBuildFile; fileRef = 3294FBCE1B11C34C00939B5B /*  machiko58.png */; };
+		3294FBD11B11C81400939B5B /* TableViewControllerRegist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3294FBD01B11C81400939B5B /* TableViewControllerRegist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		3253D6F41AABF55400D42450 /* MatchingMachikoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchingMachikoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3253D6F91AABF55400D42450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3253D6FA1AABF55400D42450 /* MatchingMachikoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingMachikoTests.swift; sourceTree = "<group>"; };
+		3253D7041AABFF7300D42450 /* tv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tv.jpg; path = ../../imgs/tv.jpg; sourceTree = "<group>"; };
+		3294FBC51B11C33900939B5B /*  machiko80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " machiko80.png"; sourceTree = "<group>"; };
+		3294FBC61B11C33900939B5B /*  machiko87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " machiko87.png"; sourceTree = "<group>"; };
+		3294FBC71B11C33900939B5B /*  machiko120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " machiko120.png"; sourceTree = "<group>"; };
+		3294FBC81B11C33900939B5B /*  machiko180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " machiko180.png"; sourceTree = "<group>"; };
+		3294FBCE1B11C34C00939B5B /*  machiko58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " machiko58.png"; sourceTree = "<group>"; };
+		3294FBD01B11C81400939B5B /* TableViewControllerRegist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerRegist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +78,7 @@
 				3253D6E01AABF55400D42450 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		3253D6E01AABF55400D42450 /* Products */ = {
 			isa = PBXGroup;
@@ -77,9 +92,16 @@
 		3253D6E11AABF55400D42450 /* MatchingMachiko */ = {
 			isa = PBXGroup;
 			children = (
+				3294FBD01B11C81400939B5B /* TableViewControllerRegist.swift */,
 				3253D6E41AABF55400D42450 /* AppDelegate.swift */,
 				3253D6E61AABF55400D42450 /* ViewController.swift */,
 				3253D6E81AABF55400D42450 /* Main.storyboard */,
+				3253D7041AABFF7300D42450 /* tv.jpg */,
+				3294FBC51B11C33900939B5B /*  machiko80.png */,
+				3294FBC61B11C33900939B5B /*  machiko87.png */,
+				3294FBCE1B11C34C00939B5B /*  machiko58.png */,
+				3294FBC71B11C33900939B5B /*  machiko120.png */,
+				3294FBC81B11C33900939B5B /*  machiko180.png */,
 				3253D6EB1AABF55400D42450 /* Images.xcassets */,
 				3253D6ED1AABF55400D42450 /* LaunchScreen.xib */,
 				3253D6E21AABF55400D42450 /* Supporting Files */,
@@ -161,6 +183,7 @@
 				TargetAttributes = {
 					3253D6DE1AABF55400D42450 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 6HJ85H2ERY;
 					};
 					3253D6F31AABF55400D42450 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -192,9 +215,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3294FBCC1B11C33900939B5B /*  machiko120.png in Resources */,
+				3294FBCD1B11C33900939B5B /*  machiko180.png in Resources */,
+				3294FBCA1B11C33900939B5B /*  machiko80.png in Resources */,
+				3294FBCB1B11C33900939B5B /*  machiko87.png in Resources */,
 				3253D6EA1AABF55400D42450 /* Main.storyboard in Resources */,
 				3253D6EF1AABF55400D42450 /* LaunchScreen.xib in Resources */,
 				3253D6EC1AABF55400D42450 /* Images.xcassets in Resources */,
+				3253D7051AABFF7300D42450 /* tv.jpg in Resources */,
+				3294FBCF1B11C34C00939B5B /*  machiko58.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3294FBD11B11C81400939B5B /* TableViewControllerRegist.swift in Sources */,
 				3253D6E71AABF55400D42450 /* ViewController.swift in Sources */,
 				3253D6E51AABF55400D42450 /* AppDelegate.swift in Sources */,
 			);
@@ -336,9 +366,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MatchingMachiko/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -346,9 +378,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MatchingMachiko/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -405,6 +439,7 @@
 				3253D7001AABF55400D42450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3253D7011AABF55400D42450 /* Build configuration list for PBXNativeTarget "MatchingMachikoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +448,7 @@
 				3253D7031AABF55400D42450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
