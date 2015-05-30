@@ -13,7 +13,7 @@
 		3253D6EC1AABF55400D42450 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3253D6EB1AABF55400D42450 /* Images.xcassets */; };
 		3253D6EF1AABF55400D42450 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3253D6ED1AABF55400D42450 /* LaunchScreen.xib */; };
 		3253D6FB1AABF55400D42450 /* MatchingMachikoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3253D6FA1AABF55400D42450 /* MatchingMachikoTests.swift */; };
-		3253D7051AABFF7300D42450 /* tv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3253D7041AABFF7300D42450 /* tv.jpg */; };
+		326B67681B19A30700FEC949 /* tv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 326B67671B19A30700FEC949 /* tv.jpg */; };
 		3294FBCA1B11C33900939B5B /*  machiko80.png in Resources */ = {isa = PBXBuildFile; fileRef = 3294FBC51B11C33900939B5B /*  machiko80.png */; };
 		3294FBCB1B11C33900939B5B /*  machiko87.png in Resources */ = {isa = PBXBuildFile; fileRef = 3294FBC61B11C33900939B5B /*  machiko87.png */; };
 		3294FBCC1B11C33900939B5B /*  machiko120.png in Resources */ = {isa = PBXBuildFile; fileRef = 3294FBC71B11C33900939B5B /*  machiko120.png */; };
@@ -43,7 +43,7 @@
 		3253D6F41AABF55400D42450 /* MatchingMachikoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchingMachikoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3253D6F91AABF55400D42450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3253D6FA1AABF55400D42450 /* MatchingMachikoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingMachikoTests.swift; sourceTree = "<group>"; };
-		3253D7041AABFF7300D42450 /* tv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tv.jpg; path = ../../imgs/tv.jpg; sourceTree = "<group>"; };
+		326B67671B19A30700FEC949 /* tv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tv.jpg; sourceTree = "<group>"; };
 		3294FBC51B11C33900939B5B /*  machiko80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " machiko80.png"; sourceTree = "<group>"; };
 		3294FBC61B11C33900939B5B /*  machiko87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " machiko87.png"; sourceTree = "<group>"; };
 		3294FBC71B11C33900939B5B /*  machiko120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " machiko120.png"; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 				3253D6E41AABF55400D42450 /* AppDelegate.swift */,
 				3253D6E61AABF55400D42450 /* ViewController.swift */,
 				3253D6E81AABF55400D42450 /* Main.storyboard */,
-				3253D7041AABFF7300D42450 /* tv.jpg */,
+				326B67671B19A30700FEC949 /* tv.jpg */,
 				3294FBC51B11C33900939B5B /*  machiko80.png */,
 				3294FBC61B11C33900939B5B /*  machiko87.png */,
 				3294FBCE1B11C34C00939B5B /*  machiko58.png */,
@@ -219,10 +219,10 @@
 				3294FBCD1B11C33900939B5B /*  machiko180.png in Resources */,
 				3294FBCA1B11C33900939B5B /*  machiko80.png in Resources */,
 				3294FBCB1B11C33900939B5B /*  machiko87.png in Resources */,
+				326B67681B19A30700FEC949 /* tv.jpg in Resources */,
 				3253D6EA1AABF55400D42450 /* Main.storyboard in Resources */,
 				3253D6EF1AABF55400D42450 /* LaunchScreen.xib in Resources */,
 				3253D6EC1AABF55400D42450 /* Images.xcassets in Resources */,
-				3253D7051AABFF7300D42450 /* tv.jpg in Resources */,
 				3294FBCF1B11C34C00939B5B /*  machiko58.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
